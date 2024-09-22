@@ -1,0 +1,13 @@
+What type of a design pattern did you employ (creational, structural, behavioural, custom)? Why?
+This follows the creational design pattern. More specifically, it follows a factory implementation of the creational design pattern. It has predefined lists of grocery and tool objects that each have specific interfaces. 
+It also has characteristics of the builder design pattenr seen in the grocerybag and toolbox classes, which increntally add items to build a complete collection for checkout
+
+What is inversion of control?
+Inversion of control is when a software component is designed to receive its dependencies from an external source, rather than creating them itself.
+
+The open/close principle states that any class, component or entity should be open for extension but closed for modification. How could one extend a class without modifying the code?
+To extend a class without modifying the code, a class can be created that overrides or adds methods of the original class. Additionally, a class can be created that overrides the original class. A third method would be to implement abstract classes
+
+
+How are design patterns different from algorithms?
+Design patterns are reusable solutions for structuring code and solving design issues, focusing on class interactions. Algorithms are step-by-step procedures for solving specific problems, like sorting or searching.
